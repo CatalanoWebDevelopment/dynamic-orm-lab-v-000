@@ -23,5 +23,7 @@ class InteractiveRecord
   end
 
   self.column_names.each do |col_name|
+    binding.pry
+  end
 
 end
